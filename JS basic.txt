@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+
+<p id="demo" style="background-color:cyan">Hello</p>
+
+<script>
+function myFunction(p1, p2) {
+  return p1 + p2;
+}
+
+var x = myFunction(7 , 6);
+var ob = document.getElementById("demo");   //assigning
+document.write(x);
+</script>
+
+</body>
+</html>

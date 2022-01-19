@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript greetings!</h2>
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.getHours();
+var a = d.getHours();
+if(a < 0 || a < 12) {
+	document.write("Good morning!!");
+} else if (a >= 12 || a < 20) {
+	document.write("Good evening!!");
+} else if (a >= 20 || a <= 24) {
+	document.write("Good night!!");
+} else {
+	document.write("invalid");
+}
+</script>
+
+</body>
+</html>
